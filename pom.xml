@@ -2,14 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>commons-parent</artifactId>
-        <groupId>com.shopline.commons</groupId>
-        <version>1.0.1-SNAPSHOT</version>
-    </parent>
+    <groupId>com.xiaofa</groupId>
+    <artifactId>spring-boot-pulsar</artifactId>
+    <version>1.0.0</version>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>commons-pulsar</artifactId>
 
     <properties>
         <spring-boot.version>2.2.7.RELEASE</spring-boot.version>
