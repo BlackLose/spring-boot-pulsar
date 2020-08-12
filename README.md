@@ -3,19 +3,17 @@
 Add Maven dependency
 
 ```
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
+<repository>
+    <id>spring-boot-pulsar</id>
+    <url>https://raw.github.com/BlackLose/spring-boot-pulsar/master</url>
+</repository>
 ```
 
 ```
 <dependency>
-  <groupId>io.github.majusko</groupId>
-  <artifactId>pulsar-java-spring-boot-starter</artifactId>
-  <version>${version}</version>
+    <groupId>com.xiaofa</groupId>
+    <artifactId>spring-boot-pulsar</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
